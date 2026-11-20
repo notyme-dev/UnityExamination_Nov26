@@ -9,7 +9,7 @@ public class Coin : MonoBehaviour
     void Start()
     {
         ps = GetComponentInChildren<ParticleSystem>();
-        asrc = GetComponentInChildren<AudioSource>();
+        asrc = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -28,7 +28,7 @@ public class Coin : MonoBehaviour
             }
             if (asrc != null)
             {
-                asrc.Play();
+                asrc.enabled = false;
             }
             Collider2D col = GetComponent<Collider2D>();
             if (col != null)
