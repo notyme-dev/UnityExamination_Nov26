@@ -10,7 +10,7 @@
 	En karaktär har ett namn (som på något sätt förmedlas till spelaren)
 	Scenbyte (+2p om det finns byten till flera scener)
 	Någon commit har en ”tag”
-	Text med ändrad storlek (+2p om det också finns text med ändrad font och färg)
+	
 	
 	En separat scen med bakgrundshistoria och syfte för spelet
 3 poängsuppgifter – (totalt 53 poäng)
@@ -40,8 +40,8 @@
 
 FREE
 Navigerbar Hierarchy (+2p Navigerbar Asset-folder) (bra namnstandard, sortering, tydlig uppdelning mellan olika kategorier etc.) 5+2
-
 UI-knapp som blir blå när den är ”highlighted”
+Text med ändrad storlek (+2p om det också finns text med ändrad font och färg) 1+2 X
 
 SPELARE
 Importerad grafik (som inte finns som default i projektet) 1 X
