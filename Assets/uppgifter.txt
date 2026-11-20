@@ -45,7 +45,7 @@ UI-knapp som blir blå när den är ”highlighted”
 
 SPELARE
 Importerad grafik (som inte finns som default i projektet) 1 X
-Ett objekt i hierarkin som har ett barn (child) 1
+Ett objekt i hierarkin som har ett barn (child) 1 X
 Spelaren kan styra en karaktär 1
 Något i projektet har en animation (+2p för ytterligare animationer på samma objekt) 3+2
 
