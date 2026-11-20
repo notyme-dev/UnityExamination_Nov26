@@ -18,7 +18,7 @@
 	En musikstem* kan läggas till med en ”fade” (*en musikfil som är tänkt att spelas samtidigt i takt med annan musikfil)
 	
 	
-	Ett partikelsystem som blåser åt höger och där partiklarna blir mindre med tiden
+	Ett partikelsystem som blåser åt höger och där partiklarna blir mindre med tiden 3 X
 	
 	
 	
