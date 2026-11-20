@@ -20,7 +20,7 @@ public class Enemy : MonoBehaviour
         GlobalPlayerInfo gpi = GlobalPlayerInfo.GetInstance();
         if (other.tag == "Player")
         {
-            gpi.TakeDamage(10);
+            gpi.TakeDamage(25);
         }
     }
 }
