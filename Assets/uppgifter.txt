@@ -52,7 +52,7 @@ Något i projektet har en animation (+2p för ytterligare animationer på samma 
 SCRIPTING / EVENTS
 
 Spelet har en tidsbegränsad utmaning 3
-En karaktär som man kan starta en konversation med 3
+
 En yta i spelet får objekt att flyta med en kraft åt höger 3
 Ett område/objekt som spelaren behöver undvika (+2p om området/objektet ändrar sig på något sätt som påverkar hur man undviker det, tex flyttar sig) 3+2
 När ett objekt enable:as* i spelet så triggas en händelse på ett annat objekt (*aktiveras) 3
@@ -63,3 +63,4 @@ Objekt som kan förstöras (+2p om det finns UI som räknar de förstörda objek
 Egen prefab som återanvänds (dsv behöver förekomma minst två instanser) 1 X
 Canvas med Worldspace UI 1p
 Dialog som varierar beroende på händelser som skett / val som spelaren gjort i spelet 5 X
+En karaktär som man kan starta en konversation med 3 X
