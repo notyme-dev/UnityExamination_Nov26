@@ -77,5 +77,5 @@ Scenbyte (+2p om det finns byten till flera scener) 1+2 X
 
 LJUD
 Volymslider för ljud/musik (+2p om det också finns en slider för Pitch) 5+7 X
-Det spelas ett slumpat ljud från en lista
+Det spelas ett slumpat ljud från en lista 3 X
 3D ljud (+1p vars ”Spatial Blend” ökar från 0-1 över 50 ”meter”)
