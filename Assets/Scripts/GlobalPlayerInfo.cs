@@ -50,6 +50,7 @@ public class GlobalPlayerInfo : MonoBehaviour
 
     public void Finish()
     {
+        if (finished) return;
         finished = true;
         finishTime = Time.time;
     }
