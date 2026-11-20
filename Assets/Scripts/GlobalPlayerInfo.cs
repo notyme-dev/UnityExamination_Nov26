@@ -18,6 +18,9 @@ public class GlobalPlayerInfo : MonoBehaviour
     public UnityEvent PlayerDied;
 
     private float diedTime = 0;
+
+    private bool finished = false;
+    private float finishTime = 0;
     
     private void ReopenCurrentScene()
     {
@@ -45,11 +48,22 @@ public class GlobalPlayerInfo : MonoBehaviour
         }
     }
 
+    public void Finish()
+    {
+        finished = true;
+        finishTime = Time.time;
+    }
+
     private void Update()
     {
         if (dead && diedTime + 3f < Time.time)
         {
             ReopenCurrentScene();
+        }
+
+        if (finished && finishTime + 3f < Time.time)
+        {
+            SceneManager.LoadScene(0);
         }
     }
 

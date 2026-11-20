@@ -31,6 +31,7 @@ public class DialogueHandler : MonoBehaviour
                         if (gpi.collectedAllPoints)
                         {
                             dw.SetText(current_dialogue.win_text);
+                            gpi.Finish();
                         }
                         else
                         {
