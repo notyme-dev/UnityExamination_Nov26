@@ -50,7 +50,7 @@ Spelaren kan styra en karaktär 1 X
 Något i projektet har en animation (+2p för ytterligare animationer på samma objekt) 3+2 X
 
 SCRIPTING / EVENTS
-Egen prefab som återanvänds (dsv behöver förekomma minst två instanser) 1
+
 Spelet har en tidsbegränsad utmaning 3
 En karaktär som man kan starta en konversation med 3
 En yta i spelet får objekt att flyta med en kraft åt höger 3
@@ -60,5 +60,6 @@ Någonting i spelet har hälsa som visualiseras för spelaren, och dör när hä
 
 MÅL och NPC
 Objekt som kan förstöras (+2p om det finns UI som räknar de förstörda objekten) 3+2
+Egen prefab som återanvänds (dsv behöver förekomma minst två instanser) 1
 Canvas med Worldspace UI 1p
 Dialog som varierar beroende på händelser som skett / val som spelaren gjort i spelet 5

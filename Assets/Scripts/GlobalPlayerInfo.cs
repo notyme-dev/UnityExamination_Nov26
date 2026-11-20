@@ -10,7 +10,7 @@ public class GlobalPlayerInfo : MonoBehaviour
     public bool collectedAllPoints = false;
 
     public int points = 0;
-    private int maxPoints = 5;
+    public int maxPoints = 5;
     
 
 
