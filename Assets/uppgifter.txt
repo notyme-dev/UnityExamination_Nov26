@@ -28,7 +28,7 @@
 	
 	
 	
-	Det finns plattformar/väggar som spelaren kan ta sig igenom från ena sidan, men inte den andra
+	
 	
 5 poängsuppgifter – (totalt 29 poäng)
 ·····························································
@@ -52,12 +52,12 @@ Något i projektet har en animation (+2p för ytterligare animationer på samma 
 BANA
 Tilemap (+2p med flera lager, varav minst ett som har kollision och minst ett som inte har det) 3+2 X
 Scenen ljussätts med ljuskällor som inte är Global Light 2D 3 X
-En yta i spelet är hal 3
+Det finns plattformar/väggar som spelaren kan ta sig igenom från ena sidan, men inte den andra
 
 SCRIPTING / EVENTS
 Spelet har en tidsbegränsad utmaning 3
 En yta i spelet får objekt att flyta med en kraft åt höger 3
-När ett objekt enable:as* i spelet så triggas en händelse på ett annat objekt (*aktiveras) 3
+När ett objekt enable:as* i spelet så triggas en händelse på ett annat objekt (*aktiveras) 3 X
 
 HP OCH FIENDER
 Någonting i spelet har hälsa som visualiseras för spelaren, och dör när hälsan når 5 X
