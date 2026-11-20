@@ -72,7 +72,7 @@ En karaktär som man kan starta en konversation med 3 X
 
 SCENE
 En separat scen med bakgrundshistoria och syfte för spelet 1 X
-Scenbyte (+2p om det finns byten till flera scener) 1+2
+Scenbyte (+2p om det finns byten till flera scener) 1+2 X
 
 
 LJUD
