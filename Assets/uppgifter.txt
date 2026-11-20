@@ -62,4 +62,4 @@ MÅL och NPC
 Objekt som kan förstöras (+2p om det finns UI som räknar de förstörda objekten) 3+2 X
 Egen prefab som återanvänds (dsv behöver förekomma minst två instanser) 1 X
 Canvas med Worldspace UI 1p
-Dialog som varierar beroende på händelser som skett / val som spelaren gjort i spelet 5
+Dialog som varierar beroende på händelser som skett / val som spelaren gjort i spelet 5 X
