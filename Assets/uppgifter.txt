@@ -3,7 +3,7 @@
 	
 	Sprite med nytt material
 	
-	3D ljud (+1p vars ”Spatial Blend” ökar från 0-1 över 50 ”meter”)
+	
 	
 	Du har byggt en spelbar fil (en ”build”) till en mapp i projektet som du döpt till ”Byggen”
 	
@@ -21,7 +21,7 @@
 	Ett partikelsystem som blåser åt höger och där partiklarna blir mindre med tiden
 	
 	
-	Det spelas ett slumpat ljud från en lista
+	
 	
 	
 	
@@ -34,7 +34,7 @@
 ·····························································
 	
 	Projektet har en rule tile med minst 4 tiles
-	Volymslider för ljud/musik (+2p om det också finns en slider för Pitch)
+	
 	
 	
 
@@ -69,3 +69,8 @@ Egen prefab som återanvänds (dsv behöver förekomma minst två instanser) 1 X
 Canvas med Worldspace UI 1p X
 Dialog som varierar beroende på händelser som skett / val som spelaren gjort i spelet 5 X
 En karaktär som man kan starta en konversation med 3 X
+
+LJUD
+Volymslider för ljud/musik (+2p om det också finns en slider för Pitch) 5+7
+Det spelas ett slumpat ljud från en lista
+3D ljud (+1p vars ”Spatial Blend” ökar från 0-1 över 50 ”meter”)
