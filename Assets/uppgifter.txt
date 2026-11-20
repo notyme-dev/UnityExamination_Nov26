@@ -40,7 +40,7 @@
 
 FREE
 Navigerbar Hierarchy (+2p Navigerbar Asset-folder) (bra namnstandard, sortering, tydlig uppdelning mellan olika kategorier etc.) 5+2
-UI-knapp som blir blå när den är ”highlighted”
+UI-knapp som blir blå när den är ”highlighted” X
 Text med ändrad storlek (+2p om det också finns text med ändrad font och färg) 1+2 X
 
 SPELARE
@@ -71,6 +71,6 @@ Dialog som varierar beroende på händelser som skett / val som spelaren gjort i
 En karaktär som man kan starta en konversation med 3 X
 
 LJUD
-Volymslider för ljud/musik (+2p om det också finns en slider för Pitch) 5+7
+Volymslider för ljud/musik (+2p om det också finns en slider för Pitch) 5+7 X
 Det spelas ett slumpat ljud från en lista
 3D ljud (+1p vars ”Spatial Blend” ökar från 0-1 över 50 ”meter”)
