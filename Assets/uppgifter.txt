@@ -52,7 +52,7 @@ Något i projektet har en animation (+2p för ytterligare animationer på samma 
 BANA
 Tilemap (+2p med flera lager, varav minst ett som har kollision och minst ett som inte har det) 3+2 X
 Scenen ljussätts med ljuskällor som inte är Global Light 2D 3 X
-Det finns plattformar/väggar som spelaren kan ta sig igenom från ena sidan, men inte den andra
+Det finns plattformar/väggar som spelaren kan ta sig igenom från ena sidan, men inte den andra X
 
 SCRIPTING / EVENTS
 Spelet har en tidsbegränsad utmaning 3
