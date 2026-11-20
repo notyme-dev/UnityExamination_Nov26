@@ -52,7 +52,8 @@ public class PlayerControllerNew : MonoBehaviour
     enum PlayerState
     {
         GROUNDED,
-        FALLING
+        FALLING,
+        DEAD
     }   
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -74,6 +75,17 @@ public class PlayerControllerNew : MonoBehaviour
 
         rb = GetComponent<Rigidbody2D>();
         currentPlayerState = PlayerState.FALLING;
+        GlobalPlayerInfo.Instance.PlayerDied.AddListener(Die);
+    }
+
+    void Die()
+    {
+        SpriteRenderer sr = avatarRoot.gameObject.GetComponent<SpriteRenderer>();
+        sr.enabled = false;
+        rb.linearVelocity = Vector2.zero;
+        velocity = Vector2.zero;
+        rb.bodyType = RigidbodyType2D.Static;
+        ChangeState(PlayerState.DEAD);
     }
 
     private RaycastHit2D CheckGrounded()
