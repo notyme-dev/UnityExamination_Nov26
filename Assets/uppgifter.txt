@@ -5,11 +5,11 @@
 	
 	
 	
-	Du har byggt en spelbar fil (en ”build”) till en mapp i projektet som du döpt till ”Byggen”
+	
 	
 	En karaktär har ett namn (som på något sätt förmedlas till spelaren)
 	
-	Någon commit har en ”tag”
+	Någon commit har en ”tag” 1 X
 	
 	
 	
@@ -42,6 +42,7 @@ FREE
 Navigerbar Hierarchy (+2p Navigerbar Asset-folder) (bra namnstandard, sortering, tydlig uppdelning mellan olika kategorier etc.) 5+2
 UI-knapp som blir blå när den är ”highlighted” X
 Text med ändrad storlek (+2p om det också finns text med ändrad font och färg) 1+2 X
+Du har byggt en spelbar fil (en ”build”) till en mapp i projektet som du döpt till ”Byggen” 1
 
 SPELARE
 Importerad grafik (som inte finns som default i projektet) 1 X
