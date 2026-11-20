@@ -16,7 +16,7 @@
 3 poängsuppgifter – (totalt 53 poäng)
 ·····························································
 	En musikstem* kan läggas till med en ”fade” (*en musikfil som är tänkt att spelas samtidigt i takt med annan musikfil)
-	En yta i spelet är hal
+	
 	
 	Ett partikelsystem som blåser åt höger och där partiklarna blir mindre med tiden
 	
@@ -29,7 +29,7 @@
 	
 	
 	Det finns plattformar/väggar som spelaren kan ta sig igenom från ena sidan, men inte den andra
-	Tilemap (+2p med flera lager, varav minst ett som har kollision och minst ett som inte har det)
+	
 5 poängsuppgifter – (totalt 29 poäng)
 ·····························································
 	
@@ -40,7 +40,7 @@
 
 FREE
 Navigerbar Hierarchy (+2p Navigerbar Asset-folder) (bra namnstandard, sortering, tydlig uppdelning mellan olika kategorier etc.) 5+2
-Scenen ljussätts med ljuskällor som inte är Global Light 2D
+
 UI-knapp som blir blå när den är ”highlighted”
 
 SPELARE
@@ -48,6 +48,11 @@ Importerad grafik (som inte finns som default i projektet) 1 X
 Ett objekt i hierarkin som har ett barn (child) 1 X
 Spelaren kan styra en karaktär 1 X
 Något i projektet har en animation (+2p för ytterligare animationer på samma objekt) 3+2 X
+
+BANA
+Tilemap (+2p med flera lager, varav minst ett som har kollision och minst ett som inte har det) 3+2 X
+Scenen ljussätts med ljuskällor som inte är Global Light 2D 3
+En yta i spelet är hal 3
 
 SCRIPTING / EVENTS
 Spelet har en tidsbegränsad utmaning 3
